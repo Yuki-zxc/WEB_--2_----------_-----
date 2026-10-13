@@ -1,0 +1,162 @@
+﻿<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Подзолкова Лілія</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- CSS Style -->
+    <link rel="stylesheet" href="StyleSheet1.css">
+</head>
+<body>
+
+    <div class="cv-wrapper">
+        <!-- Header / Персональна інформація -->
+        <header class="hero-header">
+            <div class="hero-main">
+                <div class="avatar-box">
+                    <img src="photo.jpg" alt="Подзолкова Лілія" onerror="this.src='https://via.placeholder.com/120'">
+                </div>
+                <div class="hero-text">
+                    <h1>Подзолкова Лілія</h1>
+                    <p class="role-tag">Computer Science Student & Frontend Aspirant</p>
+                    <p class="location-text">📍 Харків, Україна | ХНЕУ ім. С. Кузнеця (2 курс)</p>
+                </div>
+            </div>
+
+            <!-- Контакти через Flexbox -->
+            <div class="contact-pills">
+                <a href="mailto:liliya.podzolkova@hneu.net" class="pill">
+                    <span class="pill-label">Email:</span> Podzolkova.Liliia@hneu.net
+                </a>
+                <a href="https://github.com/Yuki-zxc" target="_blank" class="pill pill-accent">
+                    <span class="pill-label">GitHub:</span> https://github.com/Yuki-zxc
+                </a>
+             </a>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="cv-body">
+
+            <!-- About Me -->
+            <section class="cv-section">
+                <div class="section-title">
+                    <span class="title-accent"></span>
+                    <h2>Profile / About Me</h2>
+                </div>
+                <p class="bio-text">
+                    Я цілеспрямована студентка 2-го курсу спеціальності «Комп'ютерні науки» ХНЕУ ім. С. Кузнеця з великою пристрастю до веброзробки та програмної інженерії. Наразі я активно формую свою базу в HTML, CSS, JavaScript та Git, докладаючи максимум зусиль для опанування базових принципів програмування та чистого коду. Я мотивована та швидко навчаюся, прагну застосовувати свої навички в практичних проєктах та постійно розширювати свій стек
+                </p>
+            </section>
+
+            <!-- Education -->
+            <section class="cv-section">
+                <div class="section-title">
+                    <span class="title-accent"></span>
+                    <h2>Education</h2>
+                </div>
+                <div class="info-card">
+                    <div class="card-header">
+                        <h3>Харківський національний економічний университет імені Семена Кузнеця</h3>
+                        <span class="date-badge">2025 — Теперішній час</span>
+                    </div>
+                    <p class="sub-info">Бакалавр | Спеціальність: Комп'ютерні науки (2 курс)</p>
+                </div>
+            </section>
+
+            <!-- Work Experience -->
+            <section class="cv-section">
+                <div class="section-title">
+                    <span class="title-accent"></span>
+                    <h2>Work Experience</h2>
+                </div>
+                <div class="info-card empty-card">
+                    <p><em>Наразі комерційного досвіду роботи немає. Активно зосереджена на університетському навчанні, виконанні лабораторних робіт та практичних навчальних проєктах.</em></p>
+                </div>
+            </section>
+
+            <!-- Technical Skills (Visual Badges) -->
+            <section class="cv-section">
+                <div class="section-title">
+                    <span class="title-accent"></span>
+                    <h2>Technical Skills</h2>
+                </div>
+
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <span class="skill-name">HTML5 & CSS3</span>
+                        <span class="level-badge intermediate">Intermediate</span>
+                    </div>
+
+                    <div class="skill-card">
+                        <span class="skill-name">Git & GitHub</span>
+                        <span class="level-badge intermediate">Intermediate</span>
+                    </div>
+
+                    <div class="skill-card">
+                        <span class="skill-name">JavaScript</span>
+                        <span class="level-badge beginner">Beginner</span>
+                    </div>
+
+                    <div class="skill-card">
+                        <span class="skill-name">Algorithm Design</span>
+                        <span class="level-badge beginner">Beginner</span>
+                    </div>
+
+                    <!-- Навичка Not acquired з підсвічуванням :hover -->
+                    <div class="skill-card not-acquired-card">
+                        <span class="skill-name">React</span>
+                        <span class="level-badge not-acquired">Not acquired</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Languages -->
+            <section class="cv-section">
+                <div class="section-title">
+                    <span class="title-accent"></span>
+                    <h2>Languages</h2>
+                </div>
+                <div class="languages-flex">
+                    <div class="lang-item"><strong>Українська:</strong> Рідна</div>
+                    <div class="lang-item"><strong>Англійська:</strong> Intermediate (B1/B2)</div>
+                    <div class="lang-item"><strong>Німецька:</strong> Intermediate (A2/B1)</div>
+                </div>
+            </section>
+
+            <!-- Projects -->
+            <section class="cv-section">
+                <div class="section-title">
+                    <span class="title-accent"></span>
+                    <h2>Projects</h2>
+                </div>
+
+                <div class="info-card">
+                    <div class="card-header">
+                        <h3>Персональний вебсайт-портфоліо</h3>
+                        <span class="tech-tag">HTML5 / CSS3 / Git</span>
+                    </div>
+                    <p>Багатосторінковий вебресурс із семантичною версткою, зручною структурою, підключенням зовнішніх шрифтів Google Fonts та чистою стилізацією.</p>
+                </div>
+            </section>
+
+            <!-- Courses / Certificates -->
+            <section class="cv-section">
+                <div class="section-title">
+                    <span class="title-accent"></span>
+                    <h2>Courses / Certificates</h2>
+                </div>
+                <div class="info-card empty-card">
+                    <p><em>Наразі додаткові сторонні сертифікати відсутні. Основну увагу приділено опануванню базової програми з Комп'ютерних наук.</em></p>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+</body>
+</html>
